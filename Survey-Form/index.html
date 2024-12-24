@@ -1,0 +1,77 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anket Var</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 id="title">Ozmacun Gym Survey Form</i></h1>
+      <p id="description"><i>Thank you for your time..</i></p>
+    </header>
+    <form id="survey-form" action="">
+      <div class="nameWrap">
+        <label id="name-label">Name</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+      </div>
+      <div class="emailWrap">
+        <label id="email-label">Email</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+      </div>
+      <div class="ageWrap">
+        <label id="number-label">Age</label>
+        <input id="number" type="number" placeholder="Age" min="10" max="100">
+      </div>
+      <div class="reasonWrap">
+        <label for="dropdown">Why are you here?</label>
+        <select id="dropdown" >
+          <option selected="true" disabled="disabled">Select an Option</option>
+          <option value="Bodybuilding">Boldybuilding</option>
+          <option value="Fitness">Fitness</option>
+          <option value="Crossfit">Crossfit</option>
+          <option value="Burning some fat">Burn Some Fat</option>
+          <option value="Just Chilling and Taking Photos">Just Chilling and Taking Photos For Instagram</option>
+        </select>
+      </div>
+      <div class="gymEquipmentWrap">
+        <p id="ekpmn">Your must be gym equipment be like..</p>
+        <label id="towel"><input type="radio" id="check" value="towel" name="equipment">Towel</label>
+        <label id="earphones"><input type="radio" id="check" value="earphones" name="equipment">Earphones</label>
+        <label id="whey"><input type="radio" id="check" value="whey" name="equipment">Whey Protein</label>
+      </div>
+      <div class="workoutEquipmentWrap">
+        <label for="dropdown3" id="ekpmn">What is your favourite gym equipment?</label>
+        <select id="dropdown3">
+            <option selected="true" disabled="disabled">Select an Option</option>
+            <option value="Treadmill">Treadmill</option>
+            <option value="Bicycle">Bicycle</option>
+            <option value="Stair Machine">Stair Machine</option>
+            <option value="Free Weights">Free Weights</option>
+            <option value="Machines">Machines</option>
+        </select>
+      </div>
+      <div class="wishWrap">
+        <p id="ekpmn">What do you want to see brand new in the gym?</p>
+        <label for="new1"><input type="checkbox" id="check" name="new" value="box">Box</label>
+        <label for="new2"><input type="checkbox" id="check" name="new" value="more dumbbells">More Dumbbells</label>
+        <label for="new2"><input type="checkbox" id="check" name="new" value="more dumbbells">Crossfit Area</label><label for="new2"><input type="checkbox" id="check" name="new" value="more dumbbells">Big Wheel</label><label for="new2"><input type="checkbox" id="check" name="new" value="more dumbbells">Stair Machine</label>
+      </div>
+      <div class="suggestionWrap">
+        <label id="newson">Any comments or suggestions?</label>
+        <textarea name="comment" id="comment" cols="60rem" rows="8rem" placeholder="Your comments are important..."></textarea>
+      </div>
+      <div class="submitWrap">
+        <button id="submit" type="submit" class="submit-btn">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

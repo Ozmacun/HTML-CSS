@@ -1,0 +1,146 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General Styles */
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    background-image: url(https://png.pngtree.com/background/20230616/original/pngtree-contemporary-fitness-and-gym-with-a-panoramic-city-and-sky-view-picture-image_3653380.jpg);
+    color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 700px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(150, 150, 140, 0.7);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-style: italic;
+  }
+  
+  .gymEquipmentWrap{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .wishWrap{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  #check{
+    margin-right: 5px;
+  }
+  
+  #name{
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  #email{
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  #ekpmn{
+    margin-bottom: 10px;
+  }
+  
+  #number{
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+   select, textarea {
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #298b29;
+    color: whitesmoke;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    body {
+      padding: 10px;
+    }
+  
+    .container {
+      padding: 15px;
+    }
+  
+    .header h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
