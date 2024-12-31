@@ -1,0 +1,329 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #e4edf5;
+}
+
+
+
+header {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    position: fixed;
+
+}
+
+.logo img {
+    max-height: 50px;   
+}
+
+#header-img{
+    width: 150px;
+    height: 150px;
+}
+
+#introhdr{
+    margin-bottom: 0;
+}
+
+#nav-bar {
+    display: block;
+    padding: 10px 0;
+    box-sizing: border-box;
+    margin-right: 75px;
+}
+
+#nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.logo p {
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    font-size:x-large;
+}
+
+#nav-bar li {
+    margin-left: 75px;
+}
+
+#nav-bar .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+
+}
+
+#nav-bar .nav-link:hover {
+    color: red;
+    
+}
+
+#nav-bar .nav-link:active {
+    color: yellow;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+#intro {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#form {
+    margin: 20px auto;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+#hizmetlerimiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 75px;
+}
+
+#submit {
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(255, 166, 0, 0.828);
+    color: black;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    max-width: 200px;
+    justify-content: center;
+    width: 100px;
+    font-weight: 600;
+}
+
+#submit:hover {
+    background-color: rgb(214, 118, 0);
+    
+}
+
+#submit:active{
+    color: yellow;
+}
+
+#fiyat{
+    display: flex;
+    flex-direction: row;
+    row-gap: 5px;
+    justify-content: center;
+}
+
+#tedavi-sureci{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#tedavi-sureci #video{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+#footerspan{
+    color: #484747;
+}
+
+#topkt h2{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 75px;
+}
+
+
+
+.main{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.7rem;
+}
+
+.main p{
+    margin: 0;
+}
+
+
+.feature{
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.paket{
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+
+}
+
+.paket h2{
+    margin-bottom: 0;
+}
+
+.paket ol{
+    list-style: none;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+
+.top{
+    background-color: #ced8e1;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    color: orange;
+    font-size: 40px;
+    margin-bottom: 10px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+
+.main h2 {
+    margin: 0;
+    font-size: 15px;
+}
+
+footer {
+    align-items: end;
+    padding: 20px;
+    background-color: #ced8e1;
+    border-top: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+footer li {
+    display: inline;
+    margin: 0 10px;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    #nav-bar ul {
+        flex-direction: column;
+    }
+    
+    #nav-bar li {
+        margin: 10px 0;
+    }
+    
+    .container {
+        flex-direction: column;
+    }
+    
+    .feature, .paket {
+        flex: 1 1 100%;
+    }
+}
