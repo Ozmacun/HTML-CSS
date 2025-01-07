@@ -1,0 +1,147 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px; 
+    border-right: 1px solid gray;
+    min-width: 295px;
+    overflow-y: auto;
+    background-color: #f4f4f4;
+}
+
+#navbar header {
+    font-size: 1.5em;
+    padding: 18px 30px 18px 30px;
+    font-size: 1.8rem;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+
+#navbar li {
+    position: relative;
+    display: list-item;
+    border-top: 1px solid rgb(77,77,82);
+}
+
+    
+
+#navbar .nav-link {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    padding: 13px 30px 13px 30px;
+    display: block;
+    height: auto;
+    width: auto;
+}
+
+#navbar .nav-link:hover {
+    color: red;
+}
+
+#main-doc {
+    margin-left: 19.37rem; 
+    padding: 20px;
+    position: absolute;
+    display: block;
+
+}
+.main-section {
+    margin-bottom: 40px;
+}
+
+.main-section header {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.main-section p {
+    margin: 10px 0;
+}
+
+.main-section code {
+    display: block;
+    background: #f4f4f4;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.main-section ul {
+    margin: 10px 0;
+}
+
+.main-section li {
+    margin-bottom: 5px;
+}
+
+article {
+    margin-top: 10px;
+    padding: 0.93rem;
+}/*
+
+@media only screen and (max-width: 815px) {
+    #navbar {
+        width: 100%;
+        height: auto;
+        position: static;
+        border-right: none;
+        border-bottom: 1px solid gray;
+    }
+
+    #main-doc {
+        margin-left: 0;
+    }
+
+    #navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border: none;
+    }
+
+    #navbar li {
+        margin-bottom: 0;
+    }
+
+    #navbar .nav-link {
+        font-size: 1em;
+    }
+
+    .main-section {
+        margin-bottom: 20px;
+    }
+
+    .main-section header {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #navbar .nav-link {
+        font-size: 0.9em;
+    }
+    
+    .main-section header {
+        font-size: 1.2em;
+    }
+}
+    */
