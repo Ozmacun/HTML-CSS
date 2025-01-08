@@ -1,2 +1,2 @@
 # HTML-CSS
- Html ve Css kullanarak yaptığım frontend projelerden oluşan repo
+ A repository containing frontend projects I created using HTML and CSS.
