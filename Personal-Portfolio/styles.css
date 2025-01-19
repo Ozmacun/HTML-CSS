@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 70%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  border-bottom: 1.5px solid rgb(21, 21, 21);
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 6rem;
+  padding-right: 1rem;
+  background-color: rgb(174, 64, 64);
+  list-style: none;
+}
+
+.nav-list a {
+  padding: 1.8rem;
+  text-decoration: none;
+  font-size: 2rem;
+  height: 5rem;
+  color: whitesmoke;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.nav-list a:hover {
+  background-color: rgb(63, 80, 137);
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    hsl(0, 0%, 20%) 0%,
+    hsl(0, 0%, 11%) 100%
+  );
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome-section h1 {
+  color: whitesmoke;
+  font-size: 5.5rem;
+  font-weight: 700;
+}
+
+#welcome-section p {
+  color: rgb(174, 64, 64);
+  font-style: italic;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+#projects {
+  background-color: rgb(56, 56, 124);
+}
+
+.projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: var(--main-blue);
+  }
+  
+  .projects-section-header {
+    max-width: 450px;
+    margin: 0 auto 5rem auto;
+    border-bottom: 0.2rem solid whitesmoke;
+    color: whitesmoke;
+  }
+  
+  @media (max-width: 28.75em) {
+    .projects-section-header {
+      font-size: 4rem;
+    }
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  }
+  
+  @media (max-width: 30.625em) {
+    .projects-section {
+      padding: 6rem 1rem;
+    }
+  }
+  
+  .project {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+  }
+  
+  
+  .project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .project-tile {
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+    background-color: rgb(40, 42, 47);
+    color: whitesmoke;
+  }
+
+  .projects-grid a{
+    text-decoration: none;
+  }
+
+  a.project-tile{
+    padding-bottom: 0;
+  }
+
+p.project-title{
+    margin-top: 1rem;
+    transition: color 0.5s ease;
+    transition: font-size 0.5s ease;
+    
+}
+
+p.project-title:hover{
+    color: rgb(255, 183, 0);
+    font-size: 2.1rem;
+    
+}
+
+a.btn.btn-show-all {
+    background-color: rgb(40, 42, 47);
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0.7rem;
+    border-radius: 5px;
+    font-size: 2rem;
+    transition: background-color 0.5s ease;
+  }
+
+  a.btn.btn-show-all:hover{
+    background-color: rgb(174, 64, 64);  
+  }
+
+  .contact-section{
+    background-color: rgb(40, 42, 47) ;
+    border-bottom: 0.5rem solid rgb(174, 64, 64);
+    height: 86.1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+  }
+
+  .contact-section-header h2{
+    font-size: 4rem;
+  }
+
+  .contact-section-header p{
+    font-size: 1.7rem;
+    font-style: italic;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+  }
+
+  .contact-links{
+    display:contents;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+  }
+
+  .contact-links a{
+    display: inline-block;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.7rem;
+    transition: color 0.5s ease;
+    transition: font-size 0.5s ease;
+    line-height: 2.2rem;
+    white-space: nowrap;
+    width: 115px;
+  }
+
+  .contact-links a:hover{
+    color: rgb(255, 183, 0);
+    font-size: 2.2rem;
+  }
+
+  footer{
+    background-color: rgb(40, 42, 47);
+    color: whitesmoke;
+    
+  }
+
+  footer a{
+    color: whitesmoke;
+    text-decoration: none; 
+  }
+
+  .foot-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   padding: 3rem 0;
+    
+  }
